@@ -12,9 +12,9 @@ module.exports = function() {
 
     commander
       .usage('-h <hostname> -u <username> [-p <password>]')
-      .option('-h, --host <host>', 'Host name')
-      .option('-u, --user <user>', 'User name')
-      .option('-p, --password <password>', 'Password')
+      .option('-h, --host <host>', 'host name')
+      .option('-u, --user <user>', 'user name')
+      .option('-p, --password <password>', 'password')
       .parse(process.argv);
 
     // Host and user is not passwd as options

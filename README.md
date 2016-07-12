@@ -25,9 +25,9 @@ mysqlkill -h <hostname> -u <username> [-p <password>]
 
 ```
 -h, --help                 output usage information
--h, --host <host>          Host name
--u, --user <user>          User name
--p, --password <password>  Password
+-h, --host <host>          host name
+-u, --user <user>          user name
+-p, --password <password>  password
 ```
 
 # License

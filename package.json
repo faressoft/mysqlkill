@@ -1,0 +1,30 @@
+{
+  "name": "mysqlkill",
+  "version": "0.1.4",
+  "description": "List and kill active mysql queries",
+  "main": "index.js",
+  "bin": {
+    "mysqlkill": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faressoft/mysqlkill.git"
+  },
+  "keywords": [
+    "mysql",
+    "query",
+    "process",
+    "active",
+    "show",
+    "kill",
+    "manage"
+  ],
+  "author": "Mohammad Fares <faressoft.com@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "inquirer": "^1.1.2",
+    "mysql": "^2.11.1"
+  }
+}

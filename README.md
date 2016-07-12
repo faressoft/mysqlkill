@@ -1,4 +1,4 @@
-# MySQL Kill (Process Manager for MySQL)
+# MySQL Kill
 
 [![npm](https://img.shields.io/npm/v/mysqlkill.svg)](https://www.npmjs.com/package/mysqlkill)
 [![npm](https://img.shields.io/npm/l/mysqlkill.svg)](https://github.com/faressoft/mysqlkill/blob/master/LICENSE)

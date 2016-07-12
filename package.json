@@ -1,6 +1,6 @@
 {
   "name": "mysqlkill",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "List and kill active mysql queries",
   "main": "index.js",
   "bin": {

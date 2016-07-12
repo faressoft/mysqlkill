@@ -11,7 +11,6 @@ module.exports = function() {
   return new Promise(function(resolve, reject) {
 
     commander
-      .version('1.0.0')
       .usage('-h <hostname> -u <username> [-p <password>]')
       .option('-h, --host <host>', 'Host name')
       .option('-u, --user <user>', 'User name')

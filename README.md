@@ -15,10 +15,19 @@ To use the mysqlkill from you command line interface, you have to
 npm install mysqlkill -g
 ```
 
-Usage
+### Usage
 
 ```
 mysqlkill -h <hostname> -u <username> [-p <password>]
+```
+
+### Options
+
+```
+-h, --help                 output usage information
+-h, --host <host>          Host name
+-u, --user <user>          User name
+-p, --password <password>  Password
 ```
 
 # License

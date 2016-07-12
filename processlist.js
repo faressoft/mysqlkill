@@ -23,29 +23,6 @@ module.exports = function(connection) {
         return process.exit();
       }
 
-      rows = [
-        {
-          Id: 21,
-          Command: 'Qeury',
-          Info: 'SELECT DISTINC id, name, age, telephone, email, username, mobile FROM users'
-        },
-        {
-          Id: 24,
-          Command: 'Qeury',
-          Info: 'SELECT DISTINC age, id, telephone, name, email, username, mobile FROM users'
-        },
-        {
-          Id: 31,
-          Command: 'Qeury',
-          Info: 'SELECT DISTINC email, name, age, id, telephone, username, mobile FROM users'
-        },
-        {
-          Id: 35,
-          Command: 'Qeury',
-          Info: 'SELECT DISTINC username, id, name, age, telephone, email, mobile FROM users'
-        }
-      ];
-
       // No active processes
       if (rows.length <= 1) {
         console.log('No active processes');

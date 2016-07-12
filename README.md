@@ -1,7 +1,7 @@
 # MySQL Kill (Process Manager for MySQL)
 
-[![npm](https://img.shields.io/npm/v/mysqlpm.svg)](https://www.npmjs.com/package/utilityjs)
-[![npm](https://img.shields.io/npm/l/utilityjs.svg)](https://github.com/faressoft/utilityjs/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/mysqlkill.svg)](https://www.npmjs.com/package/mysqlkill)
+[![npm](https://img.shields.io/npm/l/mysqlkill.svg)](https://github.com/faressoft/mysqlkill/blob/master/LICENSE)
 
 List and kill active mysql queries.
 

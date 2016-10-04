@@ -16,7 +16,8 @@ module.exports = function(host, user, password) {
     host: host,
     user: user,
     password: password,
-    multipleStatements: true
+    multipleStatements: true,
+    insecureAuth: true
   });
 
   connection.connect(function(error) {

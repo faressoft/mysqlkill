@@ -45,6 +45,14 @@ module.exports = function() {
 
       });
 
+    } else {
+
+      resolve({
+        host: commander.host,
+        user: commander.user,
+        password: commander.password
+      });
+
     }
     
   });
